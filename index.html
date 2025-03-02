@@ -29,9 +29,62 @@
                         <h1 class="text-center text-white">
                             Видео курс по вёрстке для начинающих HTML & CSS
                         </h1>
+                        <div
+                            class="itd_play"
+                            type="button"
+                            class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#myModal"
+                        >
+                            <div class="itd_triangle"></div>
+                        </div>
+                        <a
+                            href="#footer"
+                            class="btn btn-itd btn-lg text-uppercase"
+                            >Заказть</a
+                        >
                     </div>
                 </div>
             </div>
         </header>
+        <footer id="footer">1</footer>
+
+        <!-- Modal -->
+        <div
+            class="modal fade"
+            id="myModal"
+            tabindex="-1"
+            aria-labelledby="myModal"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="myModal">
+                            Трейлер видео курса по HTML и CSS
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <style></style>
+                        <div class="embed-container">
+                            <iframe
+                                src="https://rutube.ru/play/embed/98c305b15420f3d790a149c1702385f7"
+                                frameborder="0"
+                                allow="clipboard-write; autoplay"
+                                webkitAllowFullScreen
+                                mozallowfullscreen
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
