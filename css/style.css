@@ -128,3 +128,12 @@ header, footer {
     color: var(--bs-white);
     background-color: var(--color2);
 }
+
+.learning {
+    background-color: #effbff;
+}
+
+.learning h5 {
+    padding: 25px;
+    border: 3px solid var(--color1);
+}
