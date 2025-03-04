@@ -7,4 +7,4 @@
 * Аккордион
 
 ## Ссылка на GitHub Pages
-[Мой сайт-портфолио](https://slawaslawa.github.io/slawa-portfolio/)
+[Bootstrap test](https://slawaslawa.github.io/bootstrap-course/)
