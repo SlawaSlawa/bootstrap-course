@@ -92,7 +92,7 @@ header, footer {
     background-color: var(--color2);
 }
 
-.about, .shedule, .author {
+.about, .shedule, .author, .buy {
     background-color: #eee;
 }
 
@@ -154,4 +154,8 @@ header, footer {
     width: 133px;
     height: 133px;
     border-color: var(--color1)!important;
+}
+
+.btn-itd-buy {
+    margin: 0;
 }
