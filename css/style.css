@@ -146,3 +146,12 @@ header, footer {
     max-width: 260px;
 }
 
+.line-reviews {
+    background-color: var(--color2);
+}
+
+.itd_rewivew-img {
+    width: 133px;
+    height: 133px;
+    border-color: var(--color1)!important;
+}
